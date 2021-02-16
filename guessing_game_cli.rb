@@ -8,7 +8,7 @@ if user_input == 'exit'
 end
 
   if num == user_input
-    puts "You guessed the correct number!"
+    p "You guessed the correct number!"
   end
   # elsif input == "exit"
   #   puts "Goodbye!"
