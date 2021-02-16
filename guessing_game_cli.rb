@@ -1,9 +1,9 @@
 # Code your solution here!
-def  run_guessing_game(input)
+def  run_guessing_game(user_input)
   num = rand(6)+1
-  input = gets.chomp
+  user_input = gets.chomp
 
-if input == 'exit'
+if user_input == 'exit'
   puts "Goodbye!"
 end
 
